@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative Coffee Mug - your new favorite coffee mug." />
+    <title>Creative Coffee Mug</title>
+
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Creative Coffee Mug" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="js/lightbox2/src/css/lightbox.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header__wrapper container">
+                <div class="logo">
+                    <a href="#" class="logo">
+                        <img src="images/logo.svg" alt="logo">
+                        <span class="logo-text">Creative Coffee Mug</span>
+                    </a>
+                </div>
+
+                <nav class="nav" aria-label="Navigation">
+                    <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">
+                        <i class="fa-solid fa-bars open"></i>
+                        <i class="fa-solid fa-xmark close"></i>
+                    </button>
+                    <ul class="links">
+                        <li class="link">
+                            <a href="#about" aria-label="about">About</a>
+                        </li>
+                        <li class="link">
+                            <a href="#why-us" aria-label="why-us">Why us</a>
+                        </li>
+                        <li class="link">
+                            <a href="#gallery" aria-label="gallery">Gallery</a>
+                        </li>
+                        <li class="link">
+                            <a href="#contact-us" aria-label="contact-us">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <button class="back-to-top" title="Back to top">
+        <i class="fa-solid fa-angles-up"></i>
+        <i class="fa-solid fa-mug-saucer"></i>
+    </button>
+
+    <div class="container">
+        <section class="hero">
+            <div class="wrapper hero__wrapper">
+                <div class="hero-body">
+                    <h1>We are sick of boring coffee mugs! <br> Are you? </h1>
+                    <a href="#contact-us" class="btn btn--primary">Buy now</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-image.webp" alt="ceramic mugs">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="title">About Us</h2>
+
+            <div class="wrapper about__wrapper">
+                <img src="images/about.webp" loading="lazy" alt="process of making a ceramic mug">
+
+                <div class="about-text">
+                    <p>
+                        We've created a mug designed to make your coffee moments feel special. It’s the kind of cup
+                        you'll reach for every day — a small ritual that lets you pause, breathe in the aroma, wrap your
+                        hands around it, and simply enjoy the moment.
+                    </p>
+                    <br>
+                    <p>
+                        Each mug has its own story. No two are alike, and that uniqueness is what makes them truly
+                        yours. Made from natural materials, shaped by hand, and finished with care, every piece carries
+                        a little bit of the love we pour into our work.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="why">
+            <h2 class="title">Why choose us</h2>
+
+            <div class="flip-card__wrapper">
+                <div class="flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="icon">
+                                <i class="fa-solid fa-hand-holding-heart"></i>
+                            </div>
+                            <h3 class="why__text">
+                                Handmade with Love
+                            </h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="why__text">
+                                Yes - every mug is shaped, dried, and painted entirely by hand. No robots here (except
+                                maybe the coffee machine). Each piece has its own little quirks - just like us humans.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="icon">
+                                <i class="fa-solid fa-hammer"></i>
+                            </div>
+                            <h3 class="why__text">
+                                Durable and Daily-Proof
+                            </h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="why__text">
+                                Our mugs survive dishwashers, microwaves, and even Mondays. Built to last, but gentle
+                                enough to hold your morning ritual.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="icon">
+                                <i class="fa-regular fa-snowflake"></i>
+                            </div>
+                            <h3 class="why__text">
+                                One of a Kind
+                            </h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="why__text">
+                                No two mugs ever come out exactly the same. Each has its own little character — a tiny
+                                reminder that life's better when things aren't identical.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="icon">
+                                <i class="fa-brands fa-pagelines"></i>
+                            </div>
+                            <h3 class="why__text">
+                                Thoughtful and Sustainable
+                            </span>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="why__text">
+                                We use natural materials, safe glazes, and simple packaging. Better for your coffee,
+                                better for the planet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2 class="title">Check out our products</h2>
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <a href="images/gallery-1.webp" data-lightbox="gallery" data-title="Ceramic mugs">
+                                <img src="images/gallery-1.webp" alt="ceramic mugs">
+                            </a>
+                        </li>
+                        <li class="glide__slide">
+                            <a href="images/gallery-2.webp" data-lightbox="gallery" data-title="Coffee cup">
+                                <img src="images/gallery-2.webp" alt="ceramic mug on the table">
+                            </a>
+                        </li>
+                        <li class="glide__slide">
+                            <a href="images/gallery-3.webp" data-lightbox="gallery" data-title="Ceramic mug green">
+                                <img src="images/gallery-3.webp" alt="ceramic mug green">
+                            </a>
+                        </li>
+                        <li class="glide__slide">
+                            <a href="images/gallery-4.webp" data-lightbox="gallery" data-title="Ceramic mug process">
+                                <img src="images/gallery-4.webp" alt="ceramic mug process">
+                            </a>
+                        </li>
+                        <li class="glide__slide">
+                            <a href="images/gallery-5.webp" data-lightbox="gallery" data-title="Ceramic mug with text">
+                                <img src="images/gallery-5.webp" alt="ceramic mug with text">
+                            </a>
+                        </li>
+                        <li class="glide__slide">
+                            <a href="images/gallery-6.webp" data-lightbox="gallery" data-title="Cute ceramic mugs">
+                                <img src="images/gallery-6.webp" alt="cute ceramic mugs">
+                            </a>
+                        </li>
+                        <li class="glide__slide">
+                            <a href="images/gallery-7.webp" data-lightbox="gallery"
+                                data-title="Ceramic mugs with plates">
+                                <img src="images/gallery-7.webp" alt="ceramic mugs with plates">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"> <i
+                            class="fa-solid fa-angle-left"></i> </button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> <i
+                            class="fa-solid fa-angle-right"></i> </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-us" class="form">
+            <div class="form__wrapper">
+                <h2 class="title">Contact Us</h2>
+                <form id="contactForm">
+                    <div class="form-field__wrapper">
+                        <input id="name" type="text" class="form-field form-field__input" placeholder=" " required/>
+                        <label for="name" class="form-field__label">Your name</label>
+                    </div>
+                    <span class="error disabled" id="nameError"></span>
+
+                    <div class="form-field__wrapper">
+                        <input class="form-field form-field__input" placeholder=" " type="email" id="email" name="email"
+                            required>
+                        <label class="form-field__label" for="email">Email</label>
+                    </div>
+                    <span class="error disabled" id="emailError"></span>
+
+                    <div class="form-field__wrapper">
+                        <textarea required class="form-field" rows="6" id="description" name="description"
+                            placeholder=" "></textarea>
+                        <label class="form-field__label" for="description">Description</label>
+                    </div>
+                    <span class="error disabled" id="descriptionError"></span>
+
+
+                    <button class="btn btn--primary" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="footer__wrapper container">
+            <span class="footer__copyright">
+                © 2025 <a href="/">Creative Coffee Mug.</a> All rights reserved.
+            </span>
+            <ul class="footer__links">
+                <li class="footer__link">
+                    <a href="#" aria-label="Visit our Facebook page">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="footer__link">
+                    <a href="#"  aria-label="Visit our YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li class="footer__link">
+                    <a href="#"  aria-label="Visit our Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/a4423eafc6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="js/lightbox2/src/js/lightbox.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
